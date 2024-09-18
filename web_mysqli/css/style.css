@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.wrapper_chitiet {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.hinhanh_sanpham {
+    float: left;
+    width: 30%;
+}
+
+.chitiet_sanpham {
+    float: left;
+    width: 50%;
+    margin: 0 10px;
+}
+
+input.themgiohang {
+    border: none;
+    background: #aaa;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid #000;
+    height: 180px;
+    width: 100%;
+}
+
+.menu {
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+}
+
+.list-menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    line-height: 27px;
+    width: 70%;
+}
+
+.list-menu li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+
+.list-menu li:hover {
+    background: burlywood;
+}
+
+#main {
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+}
+
+.sidebar {
+    border: 1px solid #000;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.list-sidebar {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    line-height: 27px;
+    width: 100%;
+}
+
+.list-sidebar li {
+    text-decoration: none;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.list-sidebar li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+}
+
+
+.list-sidebar li:hover {
+    color: white;
+    background: cadetblue;
+}
+
+.maincontent {
+    height: auto;
+    width: 78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+
+.maincontent .product-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.product-list li {
+    width: 19%;
+    border: 1px dashed #000;
+    margin: 4px;
+    float: left;
+    background: #f2f2f2;
+    height: 300px;
+}
+
+.product-list li a {
+    text-decoration: none;
+}
+
+.product-list li img {
+    width: 100%;
+    height: 180px;
+}
+
+.product-list .title-product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-size: bold;
+}
+
+.product-list .title-price {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-size: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    border: 1px solid #000;
+    height: 100px;
+    width: 100%;
+}
+
+.footer .footer_copyright {
+    text-align: center;
+
+}
+
+table.dangky tr td {
+    padding: 5px;
+}
+
+ul.list_trang {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.list_trang li {
+    float: left;
+    padding: 5px 13px;
+    margin: 5px;
+    background: burlywood;
+    display: block;
+}
+
+ul.list_trang li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
